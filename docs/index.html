@@ -26,6 +26,10 @@
   <script>
     window.$docsify = {
       name: 'Small-Docs 个人知识库',
+      
+      logo: '/_media/avatar.jpg',
+
+      relativePath: true,
       repo: '',
             // 显示左边栏
       loadSidebar:true,
@@ -34,8 +38,12 @@
       // 设置封面
       coverpage: true,
       auto2top: true,
+      // 设置为 history 之后，浏览器链接里不会出现 #
+      routerMode: 'history', 
       // 在左侧显示二级目录结构 最大是6表示显示的条数
       subMaxLevel:6,
+      mergeNavbar: true,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
       search: {
           paths: 'auto',
           placeholder: '请输入要搜索的关键字',
@@ -47,7 +55,7 @@
           nextText: '下一章节',
       },
       plugins: [
-         EditOnGithubPlugin.create('https://github.com/small-rose/Small-Docs/blob/main/', null, '编辑')
+         EditOnGithubPlugin.create('https://github.com/small-rose/Small-Docs/blob/main/docs', null, '编辑')
       ],
     }
   </script>
@@ -55,6 +63,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.js" type="text/javascript"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-javadoc.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
