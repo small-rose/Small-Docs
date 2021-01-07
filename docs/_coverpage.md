@@ -1,4 +1,4 @@
-<img src="/_media/avatar.jpg" width="10%" height="10%" />
+<img src="_media/avatar.jpg" width="10%" height="10%" />
 
 ## Small-Docs 个人知识库
 
