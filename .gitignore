@@ -1,6 +1,7 @@
 .DS_Store
 Thumbs.db
 
+docs/.nojekyll
 
 docs/images/**
 docs/auto.zip
