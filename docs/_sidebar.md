@@ -20,11 +20,11 @@
 * [后端相关](pages/Back-end/README)
 
 	* [Java](pages/Back-end/Java/README)
-
-	* [MySQL](pages/Back-end/MySQL/mysql-01-install)
-
+ 
 	* [JUC](pages/Back-end/JUC/README)
-
+	
+    * [MySQL](pages/Back-end/MySQL/mysql-01-install)
+    
 	* [Spring](pages/Back-end/Spring/README  "Spring")
 
 	* [ <font color="red"><b>SpringBoot</b></font>](pages/Back-end/SpringBoot/README  "SpringBoot")

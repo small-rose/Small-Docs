@@ -12,9 +12,35 @@ Spring 是干嘛的？
 `Spring`可以让对象与对象（模块与模块）之间的关系不在通过硬编码关联，而是通过配置类或注解标记进行管理。
 `Spring`是一个容器。
 
+## Spring AOP 主要应用场景
+
+Authentication 权限、
+
+Caching  缓存、
+
+Context passing 内容传递、
+
+Error handling 错误处理、
+
+Lazy loading 懒加载、
+
+Debugging  调试、
+
+logging, tracing, profiling and monitoring 记录跟踪优化校准、
+
+Performance  optimization 性能优化、
+
+Persistence 持久化、
+
+Resource pooling 资源池、
+
+Synchronization  同步、
+
+Transactions 事务。
 
 
-## 2.Spring AOP
+
+## Spring AOP
 
 
 AOP全称：Aspect-Oriented Programming，面向切面编程。
@@ -84,7 +110,7 @@ AOP切面声明方式有两种：`XML方式` 和 `注解方式`。
 public class MyLogAspect {
 
 }
-```    
+```
 
 
 ### 切入点支持
@@ -177,7 +203,7 @@ private void oneParamAnnotation() {}
 ```java
 @Pointcut("@cn.xiaocai.annotation.MyLog * *(..)")
 private void myLogAnnotation() {} 
-```        
+```
     - 匹配任何被`@MyLog`和 `RequestMapping`注解修饰的方法：
 ```java
 @Pointcut("@cn.xiaocai.annotation.MyLog @org.springframework.web.bind.annotation.RequestMapping  * *(..)")
@@ -263,7 +289,7 @@ private void anyTargethasAnnotation() {}
 ```java
 @Pointcut("this(com.xyz.service.AccountService)")
 private void givenServiceProxyPoint() {}
-```    
+```
     - 声明注解的代理连接
 ```java
 @Aspect
@@ -277,7 +303,7 @@ public class UsageTracking {
         usageTracked.incrementUseCount();
     }
 }
-```    
+```
 >这里使用`@DeclareParents`引入`UsageTracked`接口声明，就是引入接口使用接口的方法。而所有的Bean都实现了这个`UsageTracked`接口。每次调用公共切入的`businessService()` 方法时会自动找到对应的bean。  
 
 
@@ -498,7 +524,7 @@ public class MyLogAspect {
         return retVal ;
     }
 }
-```  
+```
 >环绕通知的第一个参数必须是`ProceedingJoinPoint`类型。返回类型可以声明为`void`，`proceed()`方法最多只能调用一次，可以不调用。
 
 - 访问当前连接点
@@ -526,7 +552,7 @@ public interface JoinPoint {
     String getKind();        //连接点类型  
     StaticPart getStaticPart(); //返回一个封装此连接点的静态部分的对象
 } 
-```    
+```
 
 #### 通知参数传递
 
