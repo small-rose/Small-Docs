@@ -20,7 +20,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
-
+  <link rel="stylesheet" href="//unpkg.com/docsify-toc@1.1.0/dist/toc.css"/>
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />-->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </head>
 <body>
@@ -28,7 +30,7 @@
   <script>
     window.$docsify = {
       name: 'Small-Docs 个人知识库',
-      repo: '',
+      repo: 'https://github.com/small-rose',
       // 显示左边栏
       loadSidebar:true,
       // 显示右上角导航
@@ -40,6 +42,7 @@
       subMaxLevel: 3,
       mergeNavbar: true,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      sidebarDisplayLevel: 1,
       search: {
           paths: 'auto',
           placeholder: '请输入要搜索的关键字',
@@ -56,6 +59,11 @@
       remoteMarkdown: {
         tag: '远程文章测试',
       },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: 'Contents',
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -70,6 +78,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
-</body>
+  <script src="//unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+ </body>
 </html>
