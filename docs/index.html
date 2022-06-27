@@ -56,8 +56,10 @@
       plugins: [
          EditOnGithubPlugin.create('https://github.com/small-rose/Small-Docs/blob/main/docs', null, '编辑')
       ],
+/*      routerMode: 'history',
+      externalLinkTarget: '_self',*/
       remoteMarkdown: {
-        tag: '远程文章测试',
+        tag: 'md',
       },
       toc: {
         scope: '.markdown-section',
@@ -78,7 +80,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-  <script src="//unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script>
+  <script src="https://unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
  </body>
 </html>

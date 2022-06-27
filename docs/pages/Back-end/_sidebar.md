@@ -29,7 +29,7 @@
         * [并发-三大问题](pages/Back-end/JUC/Juc-03-lilun)
         * [Volatile](pages/Back-end/JUC/Juc-04-volatile)
  
-    * MySQL
+    * [MySQL](pages/Back-end/MySQL/README)
         * [MySQL5 在线安装](pages/Back-end/MySQL/mysql-01-install)
         * [MySQL5 解压安装](pages/Back-end/MySQL/mysql-02-install)
         * [MySQL8 解压安装](pages/Back-end/MySQL/MySQL8-800-setup)
