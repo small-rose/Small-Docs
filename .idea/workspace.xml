@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3801d6f-9efb-473d-a18b-9dc8062d4a77" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="small-rose &lt;small-rose@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Apache\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BAGX0rKRfbiYw5LXbGV1pz4uSP" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/pages/Back-end/MySQL" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NodeWorks\Small-Docs\docs\pages\Back-end\MySQL" />
+      <recent name="D:\NodeWorks\Small-Docs\docs\pages\others" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Think\AppData\Roaming\Subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3801d6f-9efb-473d-a18b-9dc8062d4a77" name="Default Changelist" comment="" />
+      <created>1656341513724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656341513724</updated>
+      <workItem from="1656341534208" duration="8441000" />
+    </task>
+    <task id="LOCAL-00001" summary="补充新内容">
+      <created>1656346164468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656346164468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加了新的插件">
+      <created>1656349158974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656349158974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改一些目录">
+      <created>1656350896714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656350896714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="补充新内容" />
+    <MESSAGE value="增加了新的插件" />
+    <MESSAGE value="修改一些目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改一些目录" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656347872365">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="310" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.690@0.0.1280.690" timestamp="1656347872365" />
+    <state x="205" y="0" key="CommitChangelistDialog2" timestamp="1656350895193">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="205" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1656350895193" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1656341790063">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="121" y="51" key="MergeDialog/0.0.1280.690@0.0.1280.690" timestamp="1656341790063" />
+    <state x="423" y="47" key="RollbackChangesDialog" timestamp="1656350723881">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="423" y="47" key="RollbackChangesDialog/0.0.1280.690@0.0.1280.690" timestamp="1656350723881" />
+    <state x="172" y="0" key="SettingsEditor" timestamp="1656350920489">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="172" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1656350920489" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1656350988893">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1656350988893" />
+    <state x="414" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656349175096">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="414" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.690@0.0.1280.690" timestamp="1656349175096" />
+  </component>
+</project>
